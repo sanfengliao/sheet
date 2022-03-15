@@ -1,1 +1,3 @@
-console.log('hello world')
+import { createSheet } from "../src";
+
+createSheet(document.querySelector("#root")!)
